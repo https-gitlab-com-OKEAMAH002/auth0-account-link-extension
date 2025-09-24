@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@auth0/hapi@13.5.1":
-  version "13.5.1"
-  resolved "https://registry.npmjs.org/@auth0/hapi/-/hapi-13.5.1.tgz#21859f0948bc56b96300ccbfbc58b4a1b647ecc6"
-  integrity sha512-7PorEeMMk47ZMi4A5RY6JnlaGAfpaPjfZc6QF5E5ZWbub20/Oh1is2FkhcehhTfRxvx0kepyOKOXyggz7np4ig==
+"@auth0/hapi@13.6.0":
+  version "13.6.0"
+  resolved "https://registry.yarnpkg.com/@auth0/hapi/-/hapi-13.6.0.tgz#6441eb21663376ac810b3a491014450c16a2d275"
+  integrity sha512-5mOGIvTcEVIZLDEOuEXM77ZUnhDf36i6xJ2k6NZn/lKCAmpZxpyztzgtxAX3DgoHKror5vDevamhItOWifJjOA==
   dependencies:
     "@auth0/statehood" "^4.1.1"
     accept "2.x.x"
@@ -23,7 +23,7 @@
     kilt "2.x.x"
     mimos "3.x.x"
     peekaboo "2.x.x"
-    shot "3.x.x"
+    shot "^3.4.2"
     subtext "4.x.x"
     topo "2.x.x"
 
@@ -1010,6 +1010,11 @@
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.5"
     to-fast-properties "^2.0.0"
+
+"@hapi/address@1.x.x":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@hapi/address/-/address-1.0.1.tgz#0dc7e1e75b20443c2c16610f104939c318e71baf"
+  integrity sha512-Z7nz/NjPN7nqVe9plLg7yjmKTfde3jf/6ytcNIXPVrWzzm3H/QnIHYbVQEoMtqWcxmfblOkAxF9TPpTRaCim8g==
 
 "@panva/asn1.js@^1.0.0":
   version "1.0.0"
@@ -6680,6 +6685,15 @@ joi@10.x.x:
     items "2.x.x"
     topo "2.x.x"
 
+joi@12.x.x:
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-12.1.1.tgz#b88bc96f0e757d37d7d63cbd2f00ba353d6caf85"
+  integrity sha512-Gh3iTjGLqGmQKTDuMFfsV7zT4uHtckqtrp88VFOc89V/sNtshOlAAtEkMM8TxJqRt1Cei00Hlh6/Bp7WjcqEEg==
+  dependencies:
+    "@hapi/address" "1.x.x"
+    hoek "4.x.x"
+    topo "2.x.x"
+
 joi@8.x.x:
   version "8.4.2"
   resolved "https://registry.npmjs.org/joi/-/joi-8.4.2.tgz#bd7774658fe99058d8994ed1d4b9962484ebb859"
@@ -10354,13 +10368,13 @@ shebang-regex@^1.0.0:
   resolved "https://registry.npmjs.org/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
-shot@3.x.x:
-  version "3.4.2"
-  resolved "https://registry.npmjs.org/shot/-/shot-3.4.2.tgz#1e5c3f6f2b26649adc42f7eb350214a5a0291d67"
-  integrity sha1-Hlw/bysmZJrcQvfrNQIUpaApHWc=
+shot@^3.4.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/shot/-/shot-3.5.2.tgz#cccf109e492abc9c80cfac89a87d3e0e9ef8a1cf"
+  integrity sha512-5IBT7mmyi2XWGh0qY2zH8bixmWPuPVG5QtWDm9dt2pxEufA3t4MUA99ZIdG3e4RdcVLeg2fZvoh+8R8qg1m6BQ==
   dependencies:
     hoek "4.x.x"
-    joi "10.x.x"
+    joi "12.x.x"
 
 side-channel@^1.0.4:
   version "1.0.4"
